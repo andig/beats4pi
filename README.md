@@ -13,7 +13,7 @@ The image has a couple of ENV vars that can be used for customizing what and how
 
 ## Building elastic beats
 
-    docker run -v $(pwd):/beats andig/beats4pi -e BEATS_VERSION=6.0.1
+    docker run -v $(pwd):/beats -e BEATS_VERSION=6.0.1 andig/beats4pi
     
 ## Other
 
