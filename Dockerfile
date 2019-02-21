@@ -10,6 +10,7 @@ RUN apt update && apt install -y \
     gcc-arm-linux-gnueabi \
     git \
     wget \
+    python2 \
     && rm -rf /var/lib/apt/lists/*
 
 ENV GOPATH=/go
