@@ -1,3 +1,6 @@
 .vscode/
 beats/
 *.tar.gz
+metricbeat
+TARGET
+filebeat

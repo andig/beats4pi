@@ -22,6 +22,6 @@ This command will output the build result in the current folder:
 To test the build script without re-downloading elastic/beats you can clone it once and then map the cloned folder into the images' `GOPATH`:
 
     git clone https://github.com/elastic/beats
-    docker run -v $(pwd)/beats:/go/src/github.com/elastic/beats beats4pi
+    docker run -v $(pwd)/beats:/go/src/github.com/elastic/beats andig/beats4pi
 
 See https://gist.github.com/andig/650915e02b18cfe38de6516686977bca for an approach how to manually build beats with the various configurations required natively on a RaspberryPi 3.
