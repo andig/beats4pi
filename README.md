@@ -1,4 +1,4 @@
-# andig/beats4pi
+# denizzzzp/beats4piext
 
 Docker image to build elastic/beats for Raspberry Pi
 
