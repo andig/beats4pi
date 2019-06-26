@@ -1,4 +1,5 @@
 FROM golang:latest
+RUN apt update -y && apt install unzip
 
 ENV GOPATH=/go
 ENV GOARCH=arm
