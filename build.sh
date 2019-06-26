@@ -29,6 +29,6 @@ do
     mv $BEAT-$BEATS_VERSION-windows-x86_64 $BEAT-$BEATS_VERSION
 
     cp -f /go/src/github.com/elastic/beats/$BEAT/build/bin/$BEAT /go/src/github.com/elastic/beats/$BEAT/$BEAT-$BEATS_VERSION/
-    tar zcf $BEAT-$BEATS_VERSION-linux-arm$GOARM.tar.gz $BEAT-$BEATS_VERSION
-    cp $BEAT-$BEATS_VERSION-linux-arm$GOARM.tar.gz /build
+    tar zcf $BEAT-$BEATS_VERSION-$GOOS-$ARCHGO.tar.gz $BEAT-$BEATS_VERSION
+    cp $BEAT-$BEATS_VERSION-$GOOS-$ARCHGO.tar.gz /build
 done
