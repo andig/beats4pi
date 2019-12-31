@@ -1,6 +1,8 @@
 #!/bin/bash
 echo Target version: $BEATS_VERSION
 
+go get github.com/magefile/mage
+
 BRANCH=$(echo $BEATS_VERSION | awk -F \. {'print $1 "." $2'})
 echo Target branch: $BRANCH
 
